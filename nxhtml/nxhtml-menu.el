@@ -1473,7 +1473,7 @@ This minor mode also adds some bindings:
   for nXhtml."
   :keymap nxhtml-menu-mode-map
   :group 'nxhtml
-  :global t
+  :global nil
   )
 
 (defalias 'nxhtml-minor-mode 'nxhtml-menu-mode)
